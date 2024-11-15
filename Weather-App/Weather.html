@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check The Weather</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="https://external-preview.redd.it/YsGQGtpilZSwA72ixQLJI2JwEDaJm0uEhaYOdYBB3M4.gif?width=500&format=mp4&s=567409f11647fa1f9b978b623fb04c9cbc2582c3" type="video/mp4">
+    </video>
+    <div class="w3-container">
+        <h1>Check The Weather</h1>
+        <input type="text" id="city" placeholder="Enter a city">
+        <button id="search">Search</button> 
+        <div class="weather-info">
+            <h2 id="location"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+    </div>
+    <script src="weatherapi.js"></script>
+</body>
+</html>
